@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="otherskudos.QtTcOthers162">
+        <methods>
+          <include name="ktm"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- otherskudos.QtTcOthers162 -->
+      <class name="otherskudos.QtTcOthers165">
+        <methods>
+          <include name="kmk"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- otherskudos.QtTcOthers165 -->
+      <class name="sendkudos.QtTcSendKudos134">
+        <methods>
+          <include name="bsuite"/>
+          <include name="Csd"/>
+        </methods>
+      </class> <!-- sendkudos.QtTcSendKudos134 -->
+      <class name="integration.EmpSendkudos">
+        <methods>
+          <include name="bsuite"/>
+          <include name="rc"/>
+        </methods>
+      </class> <!-- integration.EmpSendkudos -->
+      <class name="verifyLogin.QtTcLogin111">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="1 4"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- verifyLogin.QtTcLogin111 -->
+      <class name="sendkudos.QtTcSendKudos132">
+        <methods>
+          <include name="bsuite"/>
+          <include name="ml"/>
+        </methods>
+      </class> <!-- sendkudos.QtTcSendKudos132 -->
+      <class name="kudosSearch.QtTcSearchKudos141">
+        <methods>
+          <include name="searchkudos"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- kudosSearch.QtTcSearchKudos141 -->
+      <class name="sendkudos.QtTcSendKudos135">
+        <methods>
+          <include name="auto"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- sendkudos.QtTcSendKudos135 -->
+      <class name="otherskudos.QtTcOthers164">
+        <methods>
+          <include name="kc"/>
+          <include name="bsuite"/>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- otherskudos.QtTcOthers164 -->
+      <class name="sendkudos.SendSingleKudo">
+        <methods>
+          <include name="Csd"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- sendkudos.SendSingleKudo -->
+      <class name="sendkudos.QtTcSendKudos1322">
+        <methods>
+          <include name="bsuite"/>
+          <include name="mul"/>
+        </methods>
+      </class> <!-- sendkudos.QtTcSendKudos1322 -->
+      <class name="sendkudos.QtTcSendKudos133">
+        <methods>
+          <include name="citation" invocation-numbers="0 1"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- sendkudos.QtTcSendKudos133 -->
+      <class name="otherskudos.QtTcOthers161">
+        <methods>
+          <include name="Kfm"/>
+          <include name="bsuite"/>
+        </methods>
+      </class> <!-- otherskudos.QtTcOthers161 -->
+      <class name="integration.RecentContact">
+        <methods>
+          <include name="bsuite"/>
+          <include name="rc"/>
+        </methods>
+      </class> <!-- integration.RecentContact -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

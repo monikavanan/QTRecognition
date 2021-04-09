@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="verifyLogin.QtTcLogin111"/>
+      <class name="verifyLogin.QtTcLogin112"/>
+      
+      <class name="sendkudos.QtTcSendKudos131"/>
+      <class name="sendkudos.QtTcSendKudos132"/>
+      <class name="sendkudos.QtTcSendKudos1322"/>
+	  <class name="sendkudos.QtTcSendKudos133"/>
+	  <class name="sendkudos.QtTcSendKudos134"/>
+	  <class name="sendkudos.QtTcSendKudos135"/>
+     
+     <class name="otherskudos.QtTcOthers161"/>
+      <class name="otherskudos.QtTcOthers162"/>
+      <class name="otherskudos.QtTcOthers164"/>
+      <class name="otherskudos.QtTcOthers165"/>
+     
+    
+      <class name="kudosSearch.QtTcSearchKudos141"/>
+      <class name="kudosSearch.QtTcSearchKudos142"/>
+    
+    
+    
+      <class name="sendkudos.SendSingleKudo"/>
+      <class name="integration.EmpSendkudos"/>
+      <class name="integration.RecentContact"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
